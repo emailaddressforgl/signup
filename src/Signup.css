@@ -1,0 +1,28 @@
+.Signup {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Signup > input {
+  width: 280px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  text-indent: 10px;
+  box-shadow: 5px 10px 40px rgba(211, 211, 211, 0.447);
+}
+
+.Signup button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  background: linear-gradient(120deg, rgb(122, 3, 241), rgb(73, 2, 165));
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
